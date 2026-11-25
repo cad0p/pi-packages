@@ -4,15 +4,15 @@ packages:
 
 # One version of the Pi host packages and the toolchain for every workspace package.
 catalog:
-  "@biomejs/biome": 2.6.6
+  "@biomejs/biome": 2.6.9
   "@earendil-works/pi-ai": 1.6.0
   "@earendil-works/pi-coding-agent": 1.6.0
   "@earendil-works/pi-tui": 1.6.0
-  "@types/node": 26.6.6
+  "@types/node": 26.6.9
   "@types/proper-lockfile": 4.1.4
   tsx: 4.23.15
   typescript: 7.0.2
-  vitest: 5.1.0
+  vitest: 5.1.1
 
 # Package-specific Pi SDK baselines; do not upgrade unrelated apps for one consumer.
 catalogs:
